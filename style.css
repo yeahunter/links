@@ -2,10 +2,9 @@
 
 body {
 	font-family: Arial;
-	font-size: 16px;
+	font-size: 3rem;
 	line-height: 1.5;
-	
-	background-color: #ffffff;
+	background-color: #1C1C1C;
 	color: #333333;
 	margin: 35px 10px 40px 10px;
 }
@@ -22,15 +21,16 @@ a {
 
 .container {
     width: 100%;
-    max-width: 680px;
+    /* max-width: 680px; */
     margin: 0 auto;
+    padding: 0px 12px 0px 12px;
 }
 
 /* Header */
 
 .prof-pic {
   border-radius:  50%;
-  width: 90px;
+  width: 240px;
 }
 
 .user-name {
@@ -41,13 +41,13 @@ a {
 
 .user-name a {
    color: #bbb;
-  font-size: 1rem;
+  font-size: 3.5rem;
   font-weight: 600;
   font-family: 'Karla', Helvetica, sans-serif;
 }
 
 .user-name a:hover {
-  color: #000;
+  color: #FFF;
 }
 
 /* Links */
@@ -57,23 +57,83 @@ a {
     background-color: #3d3b3c;
     color: #fff;
     text-align: center;
-    font-size: 1rem;
     font-family: 'Karla', Helvetica, sans-serif;
     font-weight: 600;
-    padding: 15px 0 15px 0;
-    margin: 12px 0 11px 0;
-    border: 2px solid #3d3b3c;
+    padding: 25px 0 25px 0;
+    margin: 12px 0 12px 0;
+
 }
 
 .link:hover {
-    color: #3d3b3c;
+    color: #fff;
     background-color: #fff;
 }
 
 
-/* Footer */
+/*Custom hover colours for sites*/
+.site:hover{
+  background-color: #1C99D8;
+}
 
-footer img {
-  width: 150px;
-    padding-top: 40px;
+.twitter:hover{
+  background-color: #00acee;
+}
+
+.github:hover{
+  background-color: #0366d6;
+}
+
+.youtube:hover{
+  background-color: #c4302b;
+}
+
+.linkedin:hover{
+  background-color: #0e76a8;
+}
+
+.twitch:hover{
+  background-color:#6441a5;
+}
+
+.wiki:hover{
+  background-color: #0db865;
+}
+
+
+@media (min-device-width : 1280px) {
+
+  .container {
+    max-width: 768px;
+    margin: 0 auto;
+
+  } 
+
+  body {
+    font-family: Arial;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    background-color: #1C1C1C;
+    color: #333333;
+    margin: 35px 10px 40px 10px;
+  }
+
+  .link {
+    padding: 10px 0 10px 0;
+
+}
+  .prof-pic {
+    width: 140px;
+  }
+  
+  .user-name {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .user-name a {
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: 'Karla', Helvetica, sans-serif;
+  }
 }
