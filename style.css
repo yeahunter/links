@@ -64,9 +64,31 @@ a {
 
 }
 
+.link div {
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+}
+
+.link img {
+    position: absolute;
+    left: 4px;
+    width: auto;
+    height: 46px;
+    display: block;
+}
+
 .link:hover {
     color: #fff;
     background-color: #fff;
+}
+
+.link:hover img {
+	display: none;
 }
 
 
