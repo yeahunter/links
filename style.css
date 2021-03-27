@@ -71,32 +71,16 @@ a {
 
 
 /*Custom hover colours for sites*/
-.site:hover{
-  background-color: #1C99D8;
-}
-
 .twitter:hover{
   background-color: #00acee;
-}
-
-.github:hover{
-  background-color: #0366d6;
 }
 
 .youtube:hover{
   background-color: #c4302b;
 }
 
-.linkedin:hover{
-  background-color: #0e76a8;
-}
-
 .twitch:hover{
   background-color:#6441a5;
-}
-
-.wiki:hover{
-  background-color: #0db865;
 }
 
 
