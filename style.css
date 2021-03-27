@@ -83,6 +83,37 @@ a {
   background-color:#6441a5;
 }
 
+.instagram:hover{
+  background-color:#C13584;
+}
+
+.tiktok:hover{
+  background-color:#69C9D0;
+}
+
+.discord:hover{
+  background-color:#7289da;
+}
+
+.facebook:hover{
+  background-color:#3b5998;
+}
+
+.webshop:hover{
+  background-color:#23a9e1;
+}
+
+.steam:hover{
+  background-color:#1b2838;
+}
+
+.patreon:hover{
+  background-color:#f96854;
+}
+
+.humble:hover{
+  background-color:#cb272c;
+}
 
 @media (min-device-width : 1280px) {
 
