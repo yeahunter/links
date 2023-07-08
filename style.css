@@ -117,6 +117,10 @@ a {
   background-color:#7289da;
 }
 
+.mastodon:hover{
+  background-color:#2a90d9;
+}
+
 .facebook:hover{
   background-color:#3b5998;
 }
