@@ -93,8 +93,8 @@ a {
 
 
 /*Custom hover colours for sites*/
-.twitter:hover{
-  background-color: #00acee;
+.x:hover{
+  background-color: #000000;
 }
 
 .youtube:hover{
@@ -117,10 +117,6 @@ a {
   background-color:#7289da;
 }
 
-.mastodon:hover{
-  background-color:#2a90d9;
-}
-
 .facebook:hover{
   background-color:#3b5998;
 }
@@ -131,10 +127,6 @@ a {
 
 .steam:hover{
   background-color:#1b2838;
-}
-
-.patreon:hover{
-  background-color:#f96854;
 }
 
 .humble:hover{
